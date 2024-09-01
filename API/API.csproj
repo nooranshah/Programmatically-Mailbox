@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="HttpService\GraphConfig.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="HttpService\" />
+    <None Include="HttpService\GraphConfig.cs" />
   </ItemGroup>
 
 </Project>
