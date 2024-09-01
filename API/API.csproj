@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Enum\" />
+    <Folder Include="HttpService\" />
   </ItemGroup>
 
 </Project>
