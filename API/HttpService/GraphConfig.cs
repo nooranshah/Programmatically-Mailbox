@@ -7,5 +7,6 @@ namespace API.HttpService
         public string ClientId { get; set; }
         public string ClientSecretId { get; set; }
         public string Scopes { get; set; }
+        public string FileName { get; set; }
     }
 }
